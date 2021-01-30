@@ -1,0 +1,27 @@
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed {
+    border-right: 1px solid var( --react-color );
+    flex: 0.4;
+    min-width: fit-content;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.feed--header {
+    background-color: #21232A;
+    border: 1px solid var( --react-color );
+    color: white;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.feed--header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+}

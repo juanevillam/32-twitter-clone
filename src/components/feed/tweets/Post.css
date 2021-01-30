@@ -1,0 +1,47 @@
+.post {
+    align-items: flex-start;
+    border-bottom: 1px solid var( --react-color );
+    border-top: 1px solid var( --react-color );
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.post--body {
+    flex: 1;
+    padding: 10px;
+}
+
+.post--body > img {
+    border-radius: 20px;
+}
+
+.post--footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.post--headerDescription {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.post--headerText > h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.post--headerSpecial {
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.post--badge {
+    color: var( --react-color );
+    font-size: 14px !important;
+}
+
+.post--avatar {
+    padding: 20px;
+}

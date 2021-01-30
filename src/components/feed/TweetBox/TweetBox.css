@@ -1,0 +1,43 @@
+.tweetBox {
+    border-bottom: 0px solid var( --react-color );
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.tweetBox > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetBox--input {
+    color: white !important;
+    display: flex;
+    padding: 20px;
+}
+
+.tweetBox--imageInput {
+    border: none;
+    color: white !important;
+    padding: 10px;
+}
+
+
+.tweetBox--input > Input {
+    border: none;
+    flex: 1;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.tweetBox--tweetButton {
+    background-color: var( --react-color ) !important;
+    border: none !important;
+    border-radius: 30px !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+    width: 80px;
+}
